@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "factorLoadingsArray",
+    "Type": "double[,]",
+    "Dimensions": "PCA.NumAssets*PCA.NumFactors",
+    "Description": "The calibrated factor betas"
+  },
+  {
+    "Name": "orderedEigenValues",
+    "Type": "double[]",
+    "Dimensions": "PCA.NumAssets",
+    "Description": "Array of eigenvalues"
+  },
+  {
+    "Name": "cumulativeVarience",
+    "Type": "double[]",
+    "Dimensions": "PCA.NumAssets",
+    "Description": "Array of variances per eigenvalue"
+  },
+  {
+    "Name": "factorVols",
+    "Type": "double[]",
+    "Dimensions": "PCA.NumAssets",
+    "Description": "Volatility per eigenvalue"
+  },
+  {
+    "Name": "vcvMatrix",
+    "Type": "double[,]",
+    "Dimensions": "PCA.NumAssets*PCA.NumAssets",
+    "Description": "Covariance Matrix"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "nobs",
+    "Type": "Int",
+    "AnchoredModel": "Input_Tool_Settings",
+    "ExampleModel": "Settings.Equity.ConstantVol",
+    "Parameter": "PCA.NumAssets"
+  },
+  {
+    "Name": "numberOfFactors",
+    "Type": "Int",
+    "AnchoredModel": "Input_Tool_Settings",
+    "ExampleModel": "Settings.Equity.ConstantVol",
+    "Parameter": "PCA.NumFactors"
+  },
+  {
+    "Name": "correlationMatrix",
+    "Type": "double[,]",
+    "AnchoredModel": "Input_Correlation_Combined",
+    "ExampleModel": "Targets.Correlation.Unconditional",
+    "Parameter": "Correlation.Matrix*"
+  },
+  {
+    "Name": "volatilityTargets",
+    "Type": "double[]",
+    "AnchoredModel": "Input_UncVol_Combined",
+    "ExampleModel": "Targets.Vol.Unconditional",
+    "Parameter": "UncVol.Table*"
+  },
+  {
+    "Name": "volatilityScales",
+    "Type": "double[]",
+    "AnchoredModel": "Input_FactorVols",
+    "ExampleModel": "Assets.EQ.Factors.Sigma.Const",
+    "Parameter": "FactorVols.All"
+  },
+  {
+    "Name": "you will need this too\u2026",
+    "Type": "NA",
+    "AnchoredModel": "Input_Tool_Settings",
+    "ExampleModel": "Settings.Equity.ConstantVol",
+    "Parameter": "ConstVolInfo.Table"
+  }
+]

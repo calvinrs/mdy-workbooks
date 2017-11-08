@@ -9,14 +9,6 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 711)">
 <title>SimpleMTT</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-711 2192,-711 2192,4 -4,4"/>
-<g id="clust4" class="cluster"><title>cluster_anchored_in</title>
-<polygon fill="none" stroke="black" points="939,-208 939,-499 1137,-499 1137,-208 939,-208"/>
-<text text-anchor="middle" x="1038" y="-483.8" font-family="Times New Roman,serif" font-size="14.00">Input Anchored Models</text>
-</g>
-<g id="clust6" class="cluster"><title>cluster_anchored_Out</title>
-<polygon fill="none" stroke="black" points="1561,-204 1561,-279 1722,-279 1722,-204 1561,-204"/>
-<text text-anchor="middle" x="1641.5" y="-263.8" font-family="Times New Roman,serif" font-size="14.00">Output Anchored Models</text>
-</g>
 <g id="clust1" class="cluster"><title>cluster_models_in</title>
 <polygon fill="none" stroke="black" points="535,-8 535,-699 918,-699 918,-8 535,-8"/>
 <text text-anchor="middle" x="726.5" y="-683.8" font-family="Times New Roman,serif" font-size="14.00">Input Models (combined)</text>
@@ -29,13 +21,21 @@
 <polygon fill="none" stroke="black" points="1858.5,-113 1858.5,-268 2142.5,-268 2142.5,-113 1858.5,-113"/>
 <text text-anchor="middle" x="2000.5" y="-252.8" font-family="Times New Roman,serif" font-size="14.00">Output Models (combined)</text>
 </g>
-<g id="clust5" class="cluster"><title>cluster_unanchored_out</title>
-<polygon fill="none" stroke="black" points="1547,-316 1547,-445 1735,-445 1735,-316 1547,-316"/>
-<text text-anchor="middle" x="1641" y="-429.8" font-family="Times New Roman,serif" font-size="14.00">un&#45;anchored models, per asset</text>
+<g id="clust4" class="cluster"><title>cluster_anchored_in</title>
+<polygon fill="none" stroke="black" points="939,-208 939,-499 1137,-499 1137,-208 939,-208"/>
+<text text-anchor="middle" x="1038" y="-483.8" font-family="Times New Roman,serif" font-size="14.00">Input Anchored Models</text>
+</g>
+<g id="clust6" class="cluster"><title>cluster_anchored_Out</title>
+<polygon fill="none" stroke="black" points="1561,-204 1561,-279 1722,-279 1722,-204 1561,-204"/>
+<text text-anchor="middle" x="1641.5" y="-263.8" font-family="Times New Roman,serif" font-size="14.00">Output Anchored Models</text>
 </g>
 <g id="clust7" class="cluster"><title>cluster_RWTS_Sorting</title>
 <polygon fill="none" stroke="black" points="8,-431 8,-560 514,-560 514,-431 8,-431"/>
 <text text-anchor="middle" x="261" y="-544.8" font-family="Times New Roman,serif" font-size="14.00">RWTS results processing</text>
+</g>
+<g id="clust5" class="cluster"><title>cluster_unanchored_out</title>
+<polygon fill="none" stroke="black" points="1547,-316 1547,-445 1735,-445 1735,-316 1547,-316"/>
+<text text-anchor="middle" x="1641" y="-429.8" font-family="Times New Roman,serif" font-size="14.00">un&#45;anchored models, per asset</text>
 </g>
 <!-- ConstVol_Equity_Tool -->
 <g id="node1" class="node"><title>ConstVol_Equity_Tool</title>
@@ -119,18 +119,18 @@
 </g>
 <!-- UncVol_Combined -->
 <g id="node3" class="node"><title>UncVol_Combined</title>
-<polygon fill="none" stroke="green" points="543,-418.5 543,-533.5 910,-533.5 910,-418.5 543,-418.5"/>
-<text text-anchor="middle" x="646" y="-472.3" font-family="Times New Roman,serif" font-size="14.00">Targets.Correlation.Unconditional</text>
-<polyline fill="none" stroke="green" points="749,-418.5 749,-533.5 "/>
-<text text-anchor="middle" x="829.5" y="-518.3" font-family="Times New Roman,serif" font-size="14.00">Best_Views_ConstantVol</text>
-<polyline fill="none" stroke="green" points="749,-510.5 910,-510.5 "/>
-<text text-anchor="middle" x="829.5" y="-495.3" font-family="Times New Roman,serif" font-size="14.00">NONE</text>
-<polyline fill="none" stroke="green" points="749,-487.5 910,-487.5 "/>
-<text text-anchor="middle" x="829.5" y="-472.3" font-family="Times New Roman,serif" font-size="14.00">Real World</text>
-<polyline fill="none" stroke="green" points="749,-464.5 910,-464.5 "/>
-<text text-anchor="middle" x="829.5" y="-449.3" font-family="Times New Roman,serif" font-size="14.00">E_ALL</text>
-<polyline fill="none" stroke="green" points="749,-441.5 910,-441.5 "/>
-<text text-anchor="middle" x="829.5" y="-426.3" font-family="Times New Roman,serif" font-size="14.00">NONE</text>
+<polygon fill="none" stroke="green" points="564,-418.5 564,-533.5 889,-533.5 889,-418.5 564,-418.5"/>
+<text text-anchor="middle" x="646" y="-472.3" font-family="Times New Roman,serif" font-size="14.00">Targets.Vol.Unconditional</text>
+<polyline fill="none" stroke="green" points="728,-418.5 728,-533.5 "/>
+<text text-anchor="middle" x="808.5" y="-518.3" font-family="Times New Roman,serif" font-size="14.00">Best_Views_ConstantVol</text>
+<polyline fill="none" stroke="green" points="728,-510.5 889,-510.5 "/>
+<text text-anchor="middle" x="808.5" y="-495.3" font-family="Times New Roman,serif" font-size="14.00">NONE</text>
+<polyline fill="none" stroke="green" points="728,-487.5 889,-487.5 "/>
+<text text-anchor="middle" x="808.5" y="-472.3" font-family="Times New Roman,serif" font-size="14.00">Real World</text>
+<polyline fill="none" stroke="green" points="728,-464.5 889,-464.5 "/>
+<text text-anchor="middle" x="808.5" y="-449.3" font-family="Times New Roman,serif" font-size="14.00">E_ALL</text>
+<polyline fill="none" stroke="green" points="728,-441.5 889,-441.5 "/>
+<text text-anchor="middle" x="808.5" y="-426.3" font-family="Times New Roman,serif" font-size="14.00">NONE</text>
 </g>
 <!-- Input_UncVol_Combined -->
 <g id="node10" class="node"><title>Input_UncVol_Combined</title>
@@ -139,23 +139,23 @@
 </g>
 <!-- UncVol_Combined&#45;&gt;Input_UncVol_Combined -->
 <g id="edge10" class="edge"><title>UncVol_Combined&#45;&gt;Input_UncVol_Combined</title>
-<path fill="none" stroke="black" d="M910.221,-428.77C926.597,-424.537 942.541,-420.416 957.285,-416.605"/>
-<polygon fill="black" stroke="black" points="958.486,-419.909 967.292,-414.018 956.734,-413.132 958.486,-419.909"/>
+<path fill="none" stroke="black" d="M889.049,-434.243C912.836,-428.094 936.41,-422.001 957.514,-416.546"/>
+<polygon fill="black" stroke="black" points="958.54,-419.895 967.346,-414.004 956.789,-413.118 958.54,-419.895"/>
 </g>
 <!-- Correlation_Combined -->
 <g id="node4" class="node"><title>Correlation_Combined</title>
-<polygon fill="none" stroke="green" points="564,-284.5 564,-399.5 889,-399.5 889,-284.5 564,-284.5"/>
-<text text-anchor="middle" x="646" y="-338.3" font-family="Times New Roman,serif" font-size="14.00">Targets.Vol.Unconditional</text>
-<polyline fill="none" stroke="green" points="728,-284.5 728,-399.5 "/>
-<text text-anchor="middle" x="808.5" y="-384.3" font-family="Times New Roman,serif" font-size="14.00">Best_Views_ConstantVol</text>
-<polyline fill="none" stroke="green" points="728,-376.5 889,-376.5 "/>
-<text text-anchor="middle" x="808.5" y="-361.3" font-family="Times New Roman,serif" font-size="14.00">NONE</text>
-<polyline fill="none" stroke="green" points="728,-353.5 889,-353.5 "/>
-<text text-anchor="middle" x="808.5" y="-338.3" font-family="Times New Roman,serif" font-size="14.00">Real World</text>
-<polyline fill="none" stroke="green" points="728,-330.5 889,-330.5 "/>
-<text text-anchor="middle" x="808.5" y="-315.3" font-family="Times New Roman,serif" font-size="14.00">E_ALL</text>
-<polyline fill="none" stroke="green" points="728,-307.5 889,-307.5 "/>
-<text text-anchor="middle" x="808.5" y="-292.3" font-family="Times New Roman,serif" font-size="14.00">NONE</text>
+<polygon fill="none" stroke="green" points="543,-284.5 543,-399.5 910,-399.5 910,-284.5 543,-284.5"/>
+<text text-anchor="middle" x="646" y="-338.3" font-family="Times New Roman,serif" font-size="14.00">Targets.Correlation.Unconditional</text>
+<polyline fill="none" stroke="green" points="749,-284.5 749,-399.5 "/>
+<text text-anchor="middle" x="829.5" y="-384.3" font-family="Times New Roman,serif" font-size="14.00">Best_Views_ConstantVol</text>
+<polyline fill="none" stroke="green" points="749,-376.5 910,-376.5 "/>
+<text text-anchor="middle" x="829.5" y="-361.3" font-family="Times New Roman,serif" font-size="14.00">NONE</text>
+<polyline fill="none" stroke="green" points="749,-353.5 910,-353.5 "/>
+<text text-anchor="middle" x="829.5" y="-338.3" font-family="Times New Roman,serif" font-size="14.00">Real World</text>
+<polyline fill="none" stroke="green" points="749,-330.5 910,-330.5 "/>
+<text text-anchor="middle" x="829.5" y="-315.3" font-family="Times New Roman,serif" font-size="14.00">E_ALL</text>
+<polyline fill="none" stroke="green" points="749,-307.5 910,-307.5 "/>
+<text text-anchor="middle" x="829.5" y="-292.3" font-family="Times New Roman,serif" font-size="14.00">NONE</text>
 </g>
 <!-- Input_Correlation_Combined -->
 <g id="node11" class="node"><title>Input_Correlation_Combined</title>
@@ -164,8 +164,8 @@
 </g>
 <!-- Correlation_Combined&#45;&gt;Input_Correlation_Combined -->
 <g id="edge11" class="edge"><title>Correlation_Combined&#45;&gt;Input_Correlation_Combined</title>
-<path fill="none" stroke="black" d="M889.049,-342C905.125,-342 921.104,-342 936.289,-342"/>
-<polygon fill="black" stroke="black" points="936.667,-345.5 946.666,-342 936.666,-338.5 936.667,-345.5"/>
+<path fill="none" stroke="black" d="M910.221,-342C919.252,-342 928.151,-342 936.79,-342"/>
+<polygon fill="black" stroke="black" points="936.804,-345.5 946.804,-342 936.804,-338.5 936.804,-345.5"/>
 </g>
 <!-- Static_FactorVol -->
 <g id="node5" class="node"><title>Static_FactorVol</title>
@@ -327,13 +327,13 @@
 </g>
 <!-- XLS_ConstVol_RWTS_Sorter&#45;&gt;UncVol_Combined -->
 <g id="edge17" class="edge"><title>XLS_ConstVol_RWTS_Sorter&#45;&gt;UncVol_Combined</title>
-<path fill="none" stroke="black" d="M506.375,-476C514.867,-476 523.641,-476 532.573,-476"/>
-<polygon fill="black" stroke="black" points="532.718,-479.5 542.718,-476 532.718,-472.5 532.718,-479.5"/>
+<path fill="none" stroke="black" d="M506.375,-476C521.532,-476 537.584,-476 553.836,-476"/>
+<polygon fill="black" stroke="black" points="553.974,-479.5 563.974,-476 553.974,-472.5 553.974,-479.5"/>
 </g>
 <!-- XLS_ConstVol_RWTS_Sorter&#45;&gt;Correlation_Combined -->
 <g id="edge19" class="edge"><title>XLS_ConstVol_RWTS_Sorter&#45;&gt;Correlation_Combined</title>
-<path fill="none" stroke="black" d="M440.419,-457.989C465.333,-443.658 501.767,-423.647 535,-409 541.305,-406.221 547.764,-403.474 554.317,-400.771"/>
-<polygon fill="black" stroke="black" points="556.033,-403.851 563.978,-396.842 553.397,-397.367 556.033,-403.851"/>
+<path fill="none" stroke="black" d="M440.419,-457.989C465.333,-443.658 501.767,-423.647 535,-409 539.173,-407.161 543.414,-405.336 547.705,-403.528"/>
+<polygon fill="black" stroke="black" points="549.277,-406.664 557.172,-399.598 546.594,-400.199 549.277,-406.664"/>
 </g>
 </g>
 </svg>

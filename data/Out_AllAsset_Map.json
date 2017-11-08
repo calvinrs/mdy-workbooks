@@ -1,0 +1,56 @@
+[
+  {
+    "ModelParameterName": "FactorLoading.All",
+    "Type": "Vector",
+    "OutModel": "Outputs_FactorLoadings",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputSource": "factorLoadings or factorLoadingsArray",
+    "Description": "split factor beta array for the asset"
+  },
+  {
+    "ModelParameterName": "BE_E_Beta_f[n]",
+    "Type": "Single",
+    "OutModel": "Outputs_FactorLoadings",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputSource": "factorLoadings or factorLoadingsArray",
+    "Description": "split array into [n] factor parameters"
+  },
+  {
+    "ModelParameterName": "FactorLoading.NumFitError",
+    "Type": "Single",
+    "OutModel": "Outputs_FactorLoadings",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputSource": "errorArray"
+  },
+  {
+    "ModelParameterName": "FactorLoading.HasOptimiserConverged",
+    "Type": "Single",
+    "OutModel": "Outputs_FactorLoadings",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputSource": "convergenceArray"
+  },
+  {
+    "ModelParameterName": "BE_CONST_E_SpecVol",
+    "Type": "Single",
+    "OutModel": "Outputs_ConstantVol",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.Const",
+    "OutputSource": "\"Specific Vol\"",
+    "Description": "Calculated specific vol"
+  },
+  {
+    "ModelParameterName": "BE_CONST_E_TotalVol",
+    "Type": "Single",
+    "OutModel": "Outputs_ConstantVol",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.Const",
+    "OutputSource": "\"Total Vol\"",
+    "Description": "Total Vol target"
+  },
+  {
+    "ModelParameterName": "BE_CONST_E_SystematicVol",
+    "Type": "Single",
+    "OutModel": "Outputs_ConstantVol",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.Const",
+    "OutputSource": "\"Systematic Vol\"",
+    "Description": "Calculated systematic vol"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "factorLoadings",
+    "Type": "double[,]",
+    "Dimensions": "Total.NumAssets*Total.NumFactors",
+    "Description": "The calibrated factor betas, including past PCA results"
+  },
+  {
+    "Name": "errorArray",
+    "Type": "double[]",
+    "Dimensions": "Total.NumAssets",
+    "Description": "The objective function value for each asset"
+  },
+  {
+    "Name": "convergenceArray",
+    "Type": "bool[]",
+    "Dimensions": "Total.NumAssets",
+    "Description": "Boolean to indicate if the optimiser found a solution"
+  }
+]

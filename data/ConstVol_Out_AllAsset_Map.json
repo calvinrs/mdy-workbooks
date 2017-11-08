@@ -1,0 +1,42 @@
+[
+  {
+    "ModelParameterName": "FactorLoading.Table",
+    "Type": "Table",
+    "OutModel": "Outputs_Combined",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputSource": "factorLoadings or factorLoadingsArray",
+    "Description": "factor betas, indexed by asset name"
+  },
+  {
+    "ModelParameterName": "Correlation.Model.Matrix",
+    "Type": "Matrix",
+    "OutModel": "Outputs_Combined",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputSource": "\"Model.Output.CorrelationMatrix\"",
+    "Description": "calculated correlation matrix, indexed by asset name pairs"
+  },
+  {
+    "ModelParameterName": "PCA.EigenValueResults.Table",
+    "Type": "Table",
+    "OutModel": "Outputs_Combined",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputSource": "\"PCA Cumulative Result\"",
+    "Description": "Table with given numeric index"
+  },
+  {
+    "ModelParameterName": "FactorLoading.NumFitError.Table",
+    "Type": "Table",
+    "OutModel": "Outputs_Combined",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputSource": "errorArray",
+    "Description": "Array, indexed by asset name"
+  },
+  {
+    "ModelParameterName": "FactorLoading.HasOptimiserConverged.Table",
+    "Type": "Table",
+    "OutModel": "Outputs_Combined",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputSource": "convergenceArray",
+    "Description": "Array, indexed by asset name"
+  }
+]
