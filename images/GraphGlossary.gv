@@ -1,0 +1,41 @@
+digraph G {
+	
+	ThisNode
+	
+	subgraph cluster_0 {
+		style=filled;
+		color=red;
+		node [style=filled,color=white];		
+		NX -> N1
+		NY -> N2
+		label = "ancestors";
+		subgraph cluster_2 {
+			style=filled;
+			color=orange;
+			node [style=filled,color=white];
+			N1 -> ThisNode
+			N2 -> ThisNode		
+			label = "predecessors";
+		}
+	}
+
+	subgraph cluster_1 {
+		node [style=filled];			
+		N3 -> NA
+		N4 -> NB
+		label = "descendants";
+		labelloc = "b"
+		style=filled;
+		color=blue;
+		subgraph cluster_3 {
+			node [style=filled];
+			ThisNode -> N3
+			ThisNode -> N4			
+			label = "successors";
+			style=filled;
+			color=lightblue;
+		}
+	}
+	
+	
+}
