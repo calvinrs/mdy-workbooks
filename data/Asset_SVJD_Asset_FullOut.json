@@ -1,0 +1,344 @@
+[
+  {
+    "ModelParameterName": "LogChangeInSigma.All",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "LogChangeInSigma.All",
+    "OutType": "double[]",
+    "Source": "Factor Volatility Intermediate Fit"
+  },
+  {
+    "ModelParameterName": "Sigma0.All",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "Sigma0.All",
+    "OutType": "double[]",
+    "Source": "Factor Volatility Intermediate Fit"
+  },
+  {
+    "ModelParameterName": "FactorVols.1m.All",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "FactorVols.1m.All",
+    "OutType": "double[]",
+    "Source": "Factor Volatility Intermediate Fit"
+  },
+  {
+    "ModelParameterName": "Skew.1m.Model",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "oneMonthSkewModel",
+    "OutType": "double[]",
+    "Source": "From Raw output"
+  },
+  {
+    "ModelParameterName": "Kurtosis.1m.Model.",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "oneMonthKurtosisModel",
+    "OutType": "double[]",
+    "Source": "From Raw output"
+  },
+  {
+    "ModelParameterName": "Skew.1m.Model.Average",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "oneMonthAverageModelSkew",
+    "OutType": "double",
+    "Source": "From Raw output"
+  },
+  {
+    "ModelParameterName": "Kurtosis.1m.Model.Average",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "oneMonthAverageModelKurtosis",
+    "OutType": "double",
+    "Source": "From Raw output"
+  },
+  {
+    "ModelParameterName": "Optimiser.ObjFn.Solution",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "error",
+    "OutType": "double",
+    "Source": "From Raw output"
+  },
+  {
+    "ModelParameterName": "Optimiser.StoppingMessage",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "stoppingMessage",
+    "OutType": "string",
+    "Source": "From Raw output"
+  },
+  {
+    "ModelParameterName": "FactorVols_1m.All",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "FactorVols.All",
+    "OutType": "double[]",
+    "Source": "FactorVols_1m"
+  },
+  {
+    "ModelParameterName": "FactorVols_1Y.All",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "FactorVols.All",
+    "OutType": "double[]",
+    "Source": "FactorVols_1Y"
+  },
+  {
+    "ModelParameterName": "Base.F1.CurrentVariance",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "F1.CurrentVariance",
+    "OutType": "double",
+    "Source": "F1"
+  },
+  {
+    "ModelParameterName": "Base.F1.ReversionLevel",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "F1.ReversionLevel",
+    "OutType": "double",
+    "Source": "F1"
+  },
+  {
+    "ModelParameterName": "Base.F1.ReversionSpeed",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "F1.ReversionSpeed",
+    "OutType": "double",
+    "Source": "F1"
+  },
+  {
+    "ModelParameterName": "Base.F1.VolVar",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "F1.VolVar",
+    "OutType": "double",
+    "Source": "F1"
+  },
+  {
+    "ModelParameterName": "Base.F1.Correlation",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "F1.Correlation",
+    "OutType": "double",
+    "Source": "F1"
+  },
+  {
+    "ModelParameterName": "Base.F1.JumpIntensity",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "F1.JumpIntensity",
+    "OutType": "double",
+    "Source": "F1"
+  },
+  {
+    "ModelParameterName": "Base.F1.JumpMean",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "F1.JumpMean",
+    "OutType": "double",
+    "Source": "F1"
+  },
+  {
+    "ModelParameterName": "Base.F1.JumpVol",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "F1.JumpVol",
+    "OutType": "double",
+    "Source": "F1"
+  },
+  {
+    "ModelParameterName": "JumpAdjusted.F1.CurrentVariance",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "AF1.CurrentVariance",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "JumpAdjusted.F1.ReversionLevel",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "AF1.ReversionLevel",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "JumpAdjusted.F1.ReversionSpeed",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "AF1.ReversionSpeed",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "JumpAdjusted.F1.VolVar",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "AF1.VolVar",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "JumpAdjusted.F1.Correlation",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "AF1.Correlation",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "JumpAdjusted.F1.JumpIntensity",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "AF1.JumpIntensity",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "JumpAdjusted.F1.JumpMean",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "AF1.JumpMean",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "JumpAdjusted.F1.JumpVol",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "AF1.JumpVol",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "Asset.SVJD.CurrentVariance",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "A[i].CurrentVariance",
+    "OutType": "double[]",
+    "Source": "A[i]"
+  },
+  {
+    "ModelParameterName": "Asset.SVJD.ReversionLevel",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "A[i].ReversionLevel",
+    "OutType": "double[]",
+    "Source": "A[i]"
+  },
+  {
+    "ModelParameterName": "Asset.SVJD.ReversionSpeed",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "A[i].ReversionSpeed",
+    "OutType": "double[]",
+    "Source": "A[i]"
+  },
+  {
+    "ModelParameterName": "Asset.SVJD.VolVar",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "A[i].VolVar",
+    "OutType": "double[]",
+    "Source": "A[i]"
+  },
+  {
+    "ModelParameterName": "Asset.SVJD.Correlation",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "A[i].Correlation",
+    "OutType": "double[]",
+    "Source": "A[i]"
+  },
+  {
+    "ModelParameterName": "Asset.SVJD.JumpIntensity",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "A[i].JumpIntensity",
+    "OutType": "double[]",
+    "Source": "A[i]"
+  },
+  {
+    "ModelParameterName": "Asset.SVJD.JumpMean",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "A[i].JumpMean",
+    "OutType": "double[]",
+    "Source": "A[i]"
+  },
+  {
+    "ModelParameterName": "Asset.SVJD.JumpVol",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "A[i].JumpVol",
+    "OutType": "double[]",
+    "Source": "A[i]"
+  },
+  {
+    "ModelParameterName": "Asset.ConstVol.CONST_Total_Vols",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "C[i].CONST_Total_Vols",
+    "OutType": "double[]",
+    "Source": "C[i]"
+  },
+  {
+    "ModelParameterName": "Asset.ConstVol.CONST_Total_Vols",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "C[i].CONST_Systematic_Vols",
+    "OutType": "double[]",
+    "Source": "C[i]"
+  },
+  {
+    "ModelParameterName": "Asset.ConstVol.CONST_Total_Vols",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "C[i].CONST_Specific_Vols",
+    "OutType": "double[]",
+    "Source": "C[i]"
+  }
+]

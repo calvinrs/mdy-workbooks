@@ -1,0 +1,29 @@
+[
+  {
+    "ModelParameterName": "BE_CONST_E_TotalVol",
+    "ModelType": "Single",
+    "OutModel": "Output_Const",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.Const",
+    "OutputName": "Asset.ConstVol.CONST_Total_Vols[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_CONST_E_SystematicVol",
+    "ModelType": "Single",
+    "OutModel": "Output_Const",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.Const",
+    "OutputName": "Asset.ConstVol.CONST_Systematic_Vols[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_CONST_E_SpecVol",
+    "ModelType": "Single",
+    "OutModel": "Output_Const",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.Const",
+    "OutputName": "Asset.ConstVol.CONST_Specific_Vols[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  }
+]

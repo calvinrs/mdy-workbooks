@@ -1,0 +1,94 @@
+[
+  {
+    "Name": "skewWeights",
+    "InputObj": "Inputs",
+    "Type": "double[] ",
+    "AnchoredModel": "Skew Targets Combined",
+    "ExampleModel": "Targets.Equity.Skew.1m",
+    "Parameter": "Skew.Value.Table"
+  },
+  {
+    "Name": "kurtosisWeights",
+    "InputObj": "Inputs",
+    "Type": "double[] ",
+    "AnchoredModel": "Kurtosis Targets Combined",
+    "ExampleModel": "Targets.Equity.Kurtosis.1m",
+    "Parameter": "Kurtosis.Value.Table"
+  },
+  {
+    "Name": "skewTargets",
+    "InputObj": "Inputs",
+    "Type": "double[] ",
+    "AnchoredModel": "Tool Settings",
+    "ExampleModel": "Settings.Equity.SVJD.Asset",
+    "Parameter": "SVJDInfo.Table['SVJD_Skew_Weight']"
+  },
+  {
+    "Name": "kurtosisTargets",
+    "InputObj": "Inputs",
+    "Type": "double[] ",
+    "AnchoredModel": "Kurtosis Targets Combined",
+    "ExampleModel": "Targets.Equity.Kurtosis.1m",
+    "Parameter": "SVJDInfo.Table['SVJD_Kurtosis_Weight']"
+  },
+  {
+    "Name": "parametersFixed",
+    "InputObj": "Inputs",
+    "Type": "ParametersFixedInOptimization",
+    "AnchoredModel": "Factor Volatility Intermediate Fit",
+    "ExampleModel": "Assets.EQ.Factors.PartialFit",
+    "Parameter": "Translated \"Factor 1\" SVJD model"
+  },
+  {
+    "Name": "unconditionalFactorVolsSkippingOne",
+    "InputObj": "Inputs",
+    "Type": "double[] ",
+    "AnchoredModel": "Starting Factor Volatility",
+    "ExampleModel": "Assets.EQ.Factors.Sigma.Const",
+    "Parameter": "FactorVols.All (skipping F1)"
+  },
+  {
+    "Name": "factorLoadings",
+    "InputObj": "Inputs",
+    "Type": "double[,] ",
+    "AnchoredModel": "Calibrated Factor Betas",
+    "ExampleModel": "Assets.EQ.PEA",
+    "Parameter": "FactorLoading.Table"
+  },
+  {
+    "Name": "unconditionalSpecificVol",
+    "InputObj": "Inputs",
+    "Type": "double[] ",
+    "AnchoredModel": "Combined Asset Constant Specific Volatility",
+    "ExampleModel": "Assets.EQ.PEA.Sigma.Const",
+    "Parameter": "CONST_Specific_Vols"
+  },
+  {
+    "Name": "uncTotalVol**",
+    "AnchoredModel": "Combined Asset Constant Specific Volatility",
+    "ExampleModel": "Assets.EQ.PEA.Sigma.Const",
+    "Parameter": "CONST_Total_Vols"
+  },
+  {
+    "Name": "jumpParametersSeedsAndBounds",
+    "InputObj": "Inputs",
+    "Type": "JumpParametersSeedsAndBounds",
+    "AnchoredModel": "Tool Settings",
+    "ExampleModel": "Settings.Equity.SVJD.Asset",
+    "Parameter": "Jump mu and lambda seeds and bounds"
+  },
+  {
+    "Name": "optimizerSettings",
+    "InputObj": "ToolSettings",
+    "Type": "OptimiserSettings",
+    "AnchoredModel": "Tool Settings",
+    "ExampleModel": "Settings.Equity.SVJD.Asset",
+    "Parameter": "\"Optimizer.LM.\" namespace parameters"
+  },
+  {
+    "Name": "as found in the model**",
+    "AnchoredModel": "Seeds",
+    "ExampleModel": "Settings.SVJD.Seeds",
+    "Parameter": "All avaliable Seeds and bounds for F1 and \"all asset\""
+  }
+]

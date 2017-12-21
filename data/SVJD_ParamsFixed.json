@@ -1,0 +1,37 @@
+[
+  {
+    "ParametersFixedInOptimization": "constVol",
+    "Value": "=Math.Pow(FactorVols.All[1],2)",
+    "Model Source": "Assets.EQ.Factors.Sigma.Const"
+  },
+  {
+    "ParametersFixedInOptimization": "reversionSpeed",
+    "Value": "BE_SVJD_E_Var_RevRate_F1",
+    "Model Source": "Settings.SVJD.Seeds"
+  },
+  {
+    "ParametersFixedInOptimization": "currentVol",
+    "Value": "=Math.Pow(conditionalOneMonthFactorVol[1],2)",
+    "Model Source": "Assets.EQ.Factors.PartialFit"
+  },
+  {
+    "ParametersFixedInOptimization": "correlation",
+    "Value": "BE_SVJD_E_Var_Correl_F1",
+    "Model Source": "Settings.SVJD.Seeds"
+  },
+  {
+    "ParametersFixedInOptimization": "volVar",
+    "Value": "BE_SVJD_E_Var_Vol_F1",
+    "Model Source": "Settings.SVJD.Seeds"
+  },
+  {
+    "ParametersFixedInOptimization": "jumpIntensity",
+    "Value": "BE_SVJD_E_Jump_Lambda_F1",
+    "Model Source": "Settings.SVJD.Seeds"
+  },
+  {
+    "ParametersFixedInOptimization": "deltaTime",
+    "Value": "=1/12",
+    "Model Source": "Calculated*"
+  }
+]

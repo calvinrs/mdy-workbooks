@@ -1,0 +1,50 @@
+[
+  {
+    "A[i] Parameters": "CurrentVariance",
+    "Value-Equity": "=Math.Pow(Sigma0.All[i],2)",
+    "Value-Property": "Same as equity",
+    "Model Source": "Factor Volatility Intermediate Fit*"
+  },
+  {
+    "A[i] Parameters": "ReversionLevel",
+    "Value-Equity": "=CalculateSpecificReversionVariance(Math.Pow(CONST_Specific_Vols[i]1],2),A[i].ReversionSpeed, A[i].VolVar,A[i].Correlation)",
+    "Value-Property": "Same as equity",
+    "Model Source": "Calibrated Factor Betas*"
+  },
+  {
+    "A[i] Parameters": "ReversionSpeed",
+    "Value-Equity": "F1.ReversionSpeed",
+    "Value-Property": 1,
+    "Model Source": "F1"
+  },
+  {
+    "A[i] Parameters": "VolVar",
+    "Value-Equity": "F1.VolVar",
+    "Value-Property": 0,
+    "Model Source": "F1"
+  },
+  {
+    "A[i] Parameters": "Correlation",
+    "Value-Equity": "F1.Correlation",
+    "Value-Property": 0,
+    "Model Source": "F1"
+  },
+  {
+    "A[i] Parameters": "JumpIntensity",
+    "Value-Equity": "BE_SVJD_E_Jump_Lambda",
+    "Value-Property": "BE_SVJD_E_Jump_Lambda",
+    "Model Source": "Settings.SVJD.Seeds"
+  },
+  {
+    "A[i] Parameters": "JumpMean",
+    "Value-Equity": "BE_SVJD_E_Jump_Mean",
+    "Value-Property": "BE_SVJD_E_Jump_Mean",
+    "Model Source": "Settings.SVJD.Seeds"
+  },
+  {
+    "A[i] Parameters": "JumpVol",
+    "Value-Equity": "BE_SVJD_E_Jump_Vol",
+    "Value-Property": "BE_SVJD_E_Jump_Vol",
+    "Model Source": "Settings.SVJD.Seeds"
+  }
+]

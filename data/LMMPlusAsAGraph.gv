@@ -1,0 +1,52 @@
+digraph G {
+	
+	LMM_Plus_Tool[style=filled,color=blue]
+	
+	subgraph cluster_0 {
+		style=filled;
+		color=red;
+		node [style=filled,color=white];	
+		Swaption_Tool -> Swaption_Model	[style="dashed"]
+		YCB_Tool -> YC_Model [style="dashed"]
+		label = "ancestors";
+		subgraph cluster_2 {
+			style=filled;
+			color=orange;
+			node [style=filled,color=white];
+			Settings_Model[style=filled,color=pink]
+			Swaption_Model[style=filled,color=pink]				
+			YC_Model[style=filled,color=pink]				
+			Settings_Model -> LMM_Plus_Tool
+			YC_Model -> LMM_Plus_Tool	
+			Swaption_Model-> LMM_Plus_Tool	
+			label = "predecessors";
+		}
+	}
+
+	subgraph cluster_1 {
+		node [style=filled];
+		Validation_Tool[style=filled,color=purple]			
+		LMM_YC -> Validation_Tool
+		LMM_Model -> Validation_Tool
+		Validation_Model[style=filled,color=pink]
+		Validation_Tool -> Validation_Model
+		otherNodes [type=box,style=filled,color=white]
+		Validation_Model -> otherNodes[style="dashed"]
+		label = "descendants";
+		labelloc = "b"
+		style=filled;
+		color=blue;
+		subgraph cluster_3 {
+			node [style=filled];
+			LMM_Plus_Tool -> LMM_YC
+			LMM_YC[style=filled,color=purple]	
+			LMM_Model[style=filled,color=pink]	
+			LMM_Plus_Tool -> LMM_Model			
+			label = "successors";
+			style=filled;
+			color=lightblue;
+		}
+	}
+	
+	
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "ModelParameterName": "BE_SVJD_E_Var_StartVal",
+    "ModelType": "Single",
+    "OutModel": "Output_SVJD",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.SVJD",
+    "OutputName": "Asset.SVJD.CurrentVariance[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Var_RevLevel",
+    "ModelType": "Single",
+    "OutModel": "Output_SVJD",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.SVJD",
+    "OutputName": "Asset.SVJD.ReversionLevel[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Var_RevRate",
+    "ModelType": "Single",
+    "OutModel": "Output_SVJD",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.SVJD",
+    "OutputName": "Asset.SVJD.ReversionSpeed[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Var_Vol",
+    "ModelType": "Single",
+    "OutModel": "Output_SVJD",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.SVJD",
+    "OutputName": "Asset.SVJD.VolVar[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Var_Correl",
+    "ModelType": "Single",
+    "OutModel": "Output_SVJD",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.SVJD",
+    "OutputName": "Asset.SVJD.Correlation[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Jump_Lambda",
+    "ModelType": "Single",
+    "OutModel": "Output_SVJD",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.SVJD",
+    "OutputName": "Asset.SVJD.JumpIntensity[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Jump_Mean",
+    "ModelType": "Single",
+    "OutModel": "Output_SVJD",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.SVJD",
+    "OutputName": "Asset.SVJD.JumpMean[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Jump_Vol",
+    "ModelType": "Single",
+    "OutModel": "Output_SVJD",
+    "ExampleOutModel": "Assets.EQ.PEA.Sigma.SVJD",
+    "OutputName": "Asset.SVJD.JumpVol[k]",
+    "OutType": "Vector[k]",
+    "Source": "SVJD_Combined"
+  }
+]

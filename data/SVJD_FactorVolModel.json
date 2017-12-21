@@ -1,0 +1,74 @@
+[
+  {
+    "ModelParameterName": "BE_SVJD_E_Var_StartVal_F1",
+    "ModelType": "Single",
+    "OutModel": "Output SVJD Factor Model",
+    "ExampleOutModel": "Assets.EQ.Factors.Sigma.SVJD ",
+    "OutputName": "AF1.CurrentVariance",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Var_RevLevel_F1",
+    "ModelType": "Single",
+    "OutModel": "Output SVJD Factor Model",
+    "ExampleOutModel": "Assets.EQ.Factors.Sigma.SVJD ",
+    "OutputName": "AF1.ReversionLevel",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Var_RevRate_F1",
+    "ModelType": "Single",
+    "OutModel": "Output SVJD Factor Model",
+    "ExampleOutModel": "Assets.EQ.Factors.Sigma.SVJD ",
+    "OutputName": "AF1.ReversionSpeed",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Var_Vol_F1",
+    "ModelType": "Single",
+    "OutModel": "Output SVJD Factor Model",
+    "ExampleOutModel": "Assets.EQ.Factors.Sigma.SVJD ",
+    "OutputName": "AF1.VolVar",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Var_Correl_F1",
+    "ModelType": "Single",
+    "OutModel": "Output SVJD Factor Model",
+    "ExampleOutModel": "Assets.EQ.Factors.Sigma.SVJD ",
+    "OutputName": "AF1.Correlation",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Jump_Lambda_F1",
+    "ModelType": "Single",
+    "OutModel": "Output SVJD Factor Model",
+    "ExampleOutModel": "Assets.EQ.Factors.Sigma.SVJD ",
+    "OutputName": "AF1.JumpIntensity",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Jump_Mean_F1",
+    "ModelType": "Single",
+    "OutModel": "Output SVJD Factor Model",
+    "ExampleOutModel": "Assets.EQ.Factors.Sigma.SVJD ",
+    "OutputName": "AF1.JumpMean",
+    "OutType": "double",
+    "Source": "AF1"
+  },
+  {
+    "ModelParameterName": "BE_SVJD_E_Jump_Vol_F1",
+    "ModelType": "Single",
+    "OutModel": "Output SVJD Factor Model",
+    "ExampleOutModel": "Assets.EQ.Factors.Sigma.SVJD ",
+    "OutputName": "AF1.JumpVol",
+    "OutType": "double",
+    "Source": "AF1"
+  }
+]

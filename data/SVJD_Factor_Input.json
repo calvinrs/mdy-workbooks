@@ -1,0 +1,66 @@
+[
+  {
+    "Name": "factorLoadings",
+    "InputObj": "Inputs",
+    "Type": "double[,]",
+    "AnchoredModel": "Calibrated Factor Betas",
+    "ExampleModel": "Assets.EQ.PEA",
+    "Parameter": "FactorLoading.Table"
+  },
+  {
+    "Name": "oneMonthVolTargets",
+    "InputObj": "Inputs",
+    "Type": "double[]",
+    "AnchoredModel": "1m Volatility Targets Combined",
+    "ExampleModel": "Targets.Equity.Vol.1m",
+    "Parameter": "oneMonthVol.Table*"
+  },
+  {
+    "Name": "specificVol",
+    "InputObj": "Inputs",
+    "Type": "double[]",
+    "AnchoredModel": "Combinded Asset Constant Specific Volatility",
+    "ExampleModel": "Assets.EQ.PEA.Sigma.Const",
+    "Parameter": "CONST_Specific_Vols"
+  },
+  {
+    "Name": "factorVols",
+    "InputObj": "Inputs",
+    "Type": "double[]",
+    "AnchoredModel": "Starting Factor Volatility",
+    "ExampleModel": "Assets.EQ.Factors.Sigma.Const",
+    "Parameter": "FactorVols.All"
+  },
+  {
+    "Name": "weights",
+    "InputObj": "Inputs",
+    "Type": "double[]",
+    "AnchoredModel": "Tool Settings",
+    "ExampleModel": "Settings.Equity.SVJD.Factor",
+    "Parameter": "ConstVolInfo.Table['SVJD_OneMonthVol_Weight']"
+  },
+  {
+    "Name": "minVol",
+    "InputObj": "Inputs",
+    "Type": "double",
+    "AnchoredModel": "Tool Settings",
+    "ExampleModel": "Settings.Equity.SVJD.Factor",
+    "Parameter": "SpecVol.MinimumValue"
+  },
+  {
+    "Name": "optimizerSettings",
+    "InputObj": "ToolSettings",
+    "Type": "OptimiserSettings",
+    "AnchoredModel": "Tool Settings",
+    "ExampleModel": "Settings.Equity.SVJD.Factor",
+    "Parameter": "\"Optimizer.LM.\" namespace parameters"
+  },
+  {
+    "Name": "useAnalyticFitting",
+    "InputObj": "ToolSettings",
+    "Type": "bool",
+    "AnchoredModel": "Tool Settings",
+    "ExampleModel": "Settings.Equity.SVJD.Factor",
+    "Parameter": "FactorCalibration.ApplyAnalyticsMethod"
+  }
+]

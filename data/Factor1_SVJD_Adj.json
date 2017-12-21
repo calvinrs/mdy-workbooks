@@ -1,0 +1,42 @@
+[
+  {
+    "AF1 Parameters": "CurrentVariance",
+    "Value": "AF1.CurrentVariance = Math.Max(F1.CurrentVariance-AF1.JumpVariance, Math.Pow(SpecVol.MinimumValue,2)",
+    "Model Source": "Calculated*"
+  },
+  {
+    "AF1 Parameters": "ReversionLevel",
+    "Value": "AF1.ReversionLevel = Math.Max(0,CalculateSpecificReversionLevelOfVariance(FactorVols_1Y.FactorVols.All[1]*(FactorVols_1Y.FactorVols.All[1] - AF1.JumpVariance), AF1.ReversionSpeed,AF1.VolVar, AF1.Correlation))",
+    "Model Source": "Calculated*"
+  },
+  {
+    "AF1 Parameters": "ReversionSpeed",
+    "Value": "F1.ReversionSpeed",
+    "Model Source": "F1"
+  },
+  {
+    "AF1 Parameters": "VolVar",
+    "Value": "F1.VolVar",
+    "Model Source": "F1"
+  },
+  {
+    "AF1 Parameters": "Correlation",
+    "Value": "F1.Correlation",
+    "Model Source": "F1"
+  },
+  {
+    "AF1 Parameters": "JumpIntensity",
+    "Value": "F1.JumpIntensity",
+    "Model Source": "F1"
+  },
+  {
+    "AF1 Parameters": "JumpMean",
+    "Value": "F1.JumpMean",
+    "Model Source": "F1"
+  },
+  {
+    "AF1 Parameters": "JumpVol",
+    "Value": "F1.JumpVol",
+    "Model Source": "F1"
+  }
+]

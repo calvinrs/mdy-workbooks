@@ -1,0 +1,43 @@
+[
+  {
+    "ModelParameterName": "LogChangeInSigma.All",
+    "ModelType": "Vector",
+    "OutModel": "Output Intermediate FactorVol",
+    "ExampleOutModel": "Assets.EQ.Factors.PartialFit",
+    "OutputName": "logChangeInSigma",
+    "OutType": "double[]"
+  },
+  {
+    "ModelParameterName": "Sigma0.All",
+    "ModelType": "Vector",
+    "OutModel": "Output Intermediate FactorVol",
+    "ExampleOutModel": "Assets.EQ.Factors.PartialFit",
+    "OutputName": "sigma0",
+    "OutType": "double[]"
+  },
+  {
+    "ModelParameterName": "FactorVols.1m.All",
+    "ModelType": "Vector",
+    "OutModel": "Output Intermediate FactorVol",
+    "ExampleOutModel": "Assets.EQ.Factors.PartialFit",
+    "OutputName": "conditionalOneMonthFactorVol",
+    "OutType": "double[]",
+    "Description": "F1.Sigma is calibrated, F2-F6 are as the input factors"
+  },
+  {
+    "ModelParameterName": "Optimiser.ObjFn.Solution",
+    "ModelType": "Single",
+    "OutModel": "Output Intermediate FactorVol",
+    "ExampleOutModel": "Assets.EQ.Factors.PartialFit",
+    "OutputName": "error",
+    "OutType": "double"
+  },
+  {
+    "ModelParameterName": "Optimiser.StoppingMessage",
+    "ModelType": "Single",
+    "OutModel": "Output Intermediate FactorVol",
+    "ExampleOutModel": "Assets.EQ.Factors.PartialFit",
+    "OutputName": "stoppingMessage",
+    "OutType": "string"
+  }
+]

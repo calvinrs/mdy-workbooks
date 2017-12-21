@@ -1,0 +1,68 @@
+[
+  {
+    "ModelParameterName": "Skew.1m.Model",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "oneMonthSkewModel",
+    "OutType": "double[]"
+  },
+  {
+    "ModelParameterName": "Kurtosis.1m.Model.",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "oneMonthKurtosisModel",
+    "OutType": "double[]"
+  },
+  {
+    "ModelParameterName": "Skew.1m.Model.Average",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "oneMonthAverageModelSkew",
+    "OutType": "double"
+  },
+  {
+    "ModelParameterName": "Kurtosis.1m.Model.Average",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "oneMonthAverageModelKurtosis",
+    "OutType": "double"
+  },
+  {
+    "ModelParameterName": "Asset.UnconditionalVol.All",
+    "ModelType": "Vector",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "unconditionalSpecificVol",
+    "OutType": "double[]"
+  },
+  {
+    "OutputName": "jumpMeanSolution",
+    "OutType": "double",
+    "Description": "Pass to SVJD Calculations"
+  },
+  {
+    "OutputName": "jumpVolSolution",
+    "OutType": "double",
+    "Description": "Pass to SVJD Calculations"
+  },
+  {
+    "ModelParameterName": "Optimiser.ObjFn.Solution",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "error",
+    "OutType": "double"
+  },
+  {
+    "ModelParameterName": "Optimiser.StoppingMessage",
+    "ModelType": "Single",
+    "OutModel": "Output Combined AssetSVJD",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "stoppingMessage",
+    "OutType": "string"
+  }
+]

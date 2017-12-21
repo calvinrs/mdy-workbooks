@@ -1,0 +1,42 @@
+[
+  {
+    "SVJD_Parameter_F1": "CurrentVariance",
+    "Value": "=Math.Pow(conditionalOneMonthFactorVol[1],2)",
+    "Model Source": "Assets.EQ.Factors.PartialFit"
+  },
+  {
+    "SVJD_Parameter_F1": "ReversionLevel",
+    "Value": "f(Math.Pow(FactorVols.All[1],2),ReversionSpeed,VolVar,Correlation)",
+    "Model Source": "AdditionalOutputCalculations.CalculateSpecificReversionVariance()"
+  },
+  {
+    "SVJD_Parameter_F1": "ReversionSpeed",
+    "Value": "BE_SVJD_E_Var_RevRate_F1",
+    "Model Source": "Settings.SVJD.Seeds"
+  },
+  {
+    "SVJD_Parameter_F1": "VolVar",
+    "Value": "BE_SVJD_E_Var_Vol_F1",
+    "Model Source": "Settings.SVJD.Seeds"
+  },
+  {
+    "SVJD_Parameter_F1": "Correlation",
+    "Value": "BE_SVJD_E_Var_Correl_F1",
+    "Model Source": "Settings.SVJD.Seeds"
+  },
+  {
+    "SVJD_Parameter_F1": "JumpIntensity",
+    "Value": "BE_SVJD_E_Jump_Lambda_F1",
+    "Model Source": "Settings.SVJD.Seeds"
+  },
+  {
+    "SVJD_Parameter_F1": "JumpMean",
+    "Value": "jumpMeanSolution",
+    "Model Source": "Output Combined AssetSVJD*"
+  },
+  {
+    "SVJD_Parameter_F1": "JumpVol",
+    "Value": "jumpVolSolution",
+    "Model Source": "Output Combined AssetSVJD*"
+  }
+]

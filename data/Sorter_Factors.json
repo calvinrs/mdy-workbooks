@@ -1,0 +1,56 @@
+[
+  {
+    "ModelParameterName": "BE_E_Beta_f1",
+    "ModelType": "Single",
+    "OutModel": "Output_FactorLoadings",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "FactorLoading.Table[k,1]",
+    "OutType": "Vector[k,i]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_E_Beta_f2",
+    "ModelType": "Single",
+    "OutModel": "Output_FactorLoadings",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "FactorLoading.Table[k,2]",
+    "OutType": "Vector[k,i]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_E_Beta_f3",
+    "ModelType": "Single",
+    "OutModel": "Output_FactorLoadings",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "FactorLoading.Table[k,3]",
+    "OutType": "Vector[k,i]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_E_Beta_f4",
+    "ModelType": "Single",
+    "OutModel": "Output_FactorLoadings",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "FactorLoading.Table[k,4]",
+    "OutType": "Vector[k,i]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_E_Beta_f5",
+    "ModelType": "Single",
+    "OutModel": "Output_FactorLoadings",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "FactorLoading.Table[k,5]",
+    "OutType": "Vector[k,i]",
+    "Source": "SVJD_Combined"
+  },
+  {
+    "ModelParameterName": "BE_E_Beta_f6",
+    "ModelType": "Single",
+    "OutModel": "Output_FactorLoadings",
+    "ExampleOutModel": "Assets.EQ.PEA",
+    "OutputName": "FactorLoading.Table[k,6]",
+    "OutType": "Vector[k,i]",
+    "Source": "SVJD_Combined"
+  }
+]
