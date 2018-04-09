@@ -1,0 +1,44 @@
+[
+  {
+    "Parameter": "targetPath",
+    "NominalPath_1Y": "UserShortRatePath + Paths.ShortRate.Model",
+    "NominalPath_10Y": "UserLongRatePath",
+    "InflationPath_1Y": "Paths.Inflation.InflationBreakEven.Target",
+    "RealPath_10Y": "Paths.Real.LongRate.Target"
+  },
+  {
+    "Parameter": "weights",
+    "NominalPath_1Y": "Nominal.ShortTerm.LogisticWeights",
+    "NominalPath_10Y": "Nominal.LongTerm.LogisticWeights",
+    "InflationPath_1Y": "Real.Inflation.LogisticWeights",
+    "RealPath_10Y": "Real.LongTerm.LogisticWeights"
+  },
+  {
+    "Parameter": "meanRevRate",
+    "NominalPath_1Y": "Nominal.ShortTerm.MeanRevRate",
+    "NominalPath_10Y": "Nominal.LongTerm.MeanRevRate",
+    "InflationPath_1Y": "Real.Inflation.MeanRevRate",
+    "RealPath_10Y": "Real.LongTerm.MeanRevRate"
+  },
+  {
+    "Parameter": "shortPath",
+    "NominalPath_1Y": "Curve.YC.Fwd.ContComp",
+    "NominalPath_10Y": "Nominal.LongTerm.ShortPath",
+    "InflationPath_1Y": "Paths.Inflation.InflationBreakEven.Initial",
+    "RealPath_10Y": "Real.LongTerm.ShortPath"
+  },
+  {
+    "Parameter": "mediumPath",
+    "NominalPath_1Y": "Nominal.ShortTerm.MediumPath",
+    "NominalPath_10Y": "Nominal.LongTerm.MediumPath",
+    "InflationPath_1Y": "Real.Inflation.MediumPath",
+    "RealPath_10Y": "Real.LongTerm.MediumPath"
+  },
+  {
+    "Parameter": "longRate",
+    "NominalPath_1Y": "Economy.Nominal.Shortrate.ULT.Target",
+    "NominalPath_10Y": "Economy.Nominal.10Y.ULT.Target",
+    "InflationPath_1Y": "Economy.Real.Inflation.ULT.Target",
+    "RealPath_10Y": "Economy.Real.10Y.ULT.Target"
+  }
+]

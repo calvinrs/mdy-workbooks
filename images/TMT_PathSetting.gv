@@ -1,0 +1,74 @@
+digraph SimpleMTT {
+	rankdir=LR;
+	
+	// Tool abstract
+	
+	// Tools
+	node [shape=record,color="blue"]
+	
+	PathSettingTool[label="{Real World Path Setting Tool|{V2_Best_Views|#CurveType#|Real World|#Economy#|NONE}}"]	
+	
+	
+	// Input Anchored models
+	node [shape=box,color="blue"]
+	
+	Settings -> PathSettingTool
+	Assumptions_MRSpeed -> PathSettingTool
+	NominalShortPathSource -> PathSettingTool 
+	RealShortPathSource -> PathSettingTool 
+	NominalLongTargetSource -> PathSettingTool
+	MediumPathTargets -> PathSettingTool
+	Assumptions_LongRates -> PathSettingTool
+	
+	// Method outputs
+	
+	node [shape=box,color="purple"]
+	PathSettingTool -> NominalPath_1Y
+	PathSettingTool -> NominalPath_10Y
+	PathSettingTool -> InflationPath_1Y
+	PathSettingTool -> RealPath_10Y
+	
+	// Output anchors
+	node [shape=box,color="blue"]
+	NominalPath_1Y -> Output_Nominal
+	NominalPath_10Y -> Output_Nominal
+	InflationPath_1Y -> Output_Inflation
+	RealPath_10Y -> Output_RealLong
+	
+	// Actual used models
+	// Input models
+	node [shape=record,color="green"]
+	
+	Settings_Model[label="{Settings.RealWorldPathSettingTool|{V2_Best_Views|#CurveType#|Real World|#Economy#|NONE}}",color="orange"]	
+	Assumptions_MRSpeed_Model[label="{Assumptions.NYC.MRSpeed|{B+H_Standard|G|Real World|ALL|NONE}}"]
+	NominalShortPathSource_Model[label="{Econ.NYC.Ext2FBK.YC|{NYC_Market|#CurveType#|Real World|#Economy#|NONE}}"]
+	RealShortPathSource_Model[label="{Econ.RYC.2FVas|{V2_Best_Views|G|Real World|#Economy#|NONE}}"]	
+	MediumPathTargets_Model[label="{Assumptions.RateLevels|{ECCA|#CurveType#|Real World|#Economy#|NONE}}"]
+	NominalLongTargetSource_Model[label="{Econ.NYC.Ext2FBK.TP.TVTP|{Best_Views|#CurveType#|Real World|#Economy#|NONE}}"]
+	Assumptions_LongRates_Model[label="{Assumptions.RateLevels|{B+H_Standard|#CurveType#|Real World|#Economy#|NONE}}"]
+	
+	// Output models
+	
+	Outputs_Nominal_Model[label="{Targets.Rates.Paths|{V2_Best_Views|#CurveType#|Real World|#Econ#|NONE}}",color="green"]
+	Outputs_Inflation_Model[label="{Targets.Paths.BreakevenInflation|{V2_Best_Views#CurveType#|Real World|#Econ#|NONE}}",color="green"]
+	Outputs_RealLong_Model[label="{Targets.Paths.RealLongRate|{V2_Best_Views|#CurveType#|Real World|#Econ#|NONE}}",color="green"]
+	
+	Output_Nominal -> Outputs_Nominal_Model	
+	Output_Inflation -> Outputs_Inflation_Model
+	Output_RealLong -> Outputs_RealLong_Model
+	
+	// Models into anchors
+	
+	
+	
+	
+	
+	Settings_Model -> Settings
+	Assumptions_MRSpeed_Model -> Assumptions_MRSpeed
+	NominalShortPathSource_Model -> NominalShortPathSource
+	RealShortPathSource_Model -> RealShortPathSource
+	NominalLongTargetSource_Model -> NominalLongTargetSource
+	MediumPathTargets_Model -> MediumPathTargets
+	Assumptions_LongRates_Model -> Assumptions_LongRates
+	
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "Required": "Label in TMT diagram",
+    "Nominal Short Term": "NominalPath_1Y",
+    "Nominal Long Term": "NominalPath_10Y",
+    "Real Short Term": "InflationPath_1Y",
+    "Real Long Term": "RealPath_10Y"
+  },
+  {
+    "Required": "Output Target Path",
+    "Nominal Short Term": "Nominal 1Y Cont. Comp. Rate ",
+    "Nominal Long Term": "Nominal 10Y Ann. Comp. Rate",
+    "Real Short Term": "Expected Cont. Comp. Inflation",
+    "Real Long Term": "Real 10Y Cont. Comp. Rate"
+  },
+  {
+    "Required": "Short Rate Path",
+    "Nominal Short Term": "Nominal Cont. Comp Forward Rates",
+    "Nominal Long Term": "Forward Rate-Implied 10Y Nominal Rate (Ann. Comp.)",
+    "Real Short Term": "Initial Break-Even Inflation (Cont. Comp.)",
+    "Real Long Term": "Forward Rate-Implied 10Y Real Rate (Cont. Comp.)"
+  },
+  {
+    "Required": "Medium Term Target",
+    "Nominal Short Term": "ECCA.Econ.Nominal.ShortRate.MT.Target",
+    "Nominal Long Term": "ECCA.Econ.Nominal.LongRate.MT.Target",
+    "Real Short Term": "ECCA.Econ.Inflation.MT.Target",
+    "Real Long Term": "ECCA.Econ.Real.LongRate.MT.Target"
+  },
+  {
+    "Required": "Unconditional Target",
+    "Nominal Short Term": "Input Nominal Unconditonal Short Rate Assumption",
+    "Nominal Long Term": "Observed 100Y value from a Ed2FBK model path",
+    "Real Short Term": "Input  Unc. Inflation Unc. Assumption",
+    "Real Long Term": "Real 10Y Unc. Rate derived from Vasicek Model"
+  },
+  {
+    "Required": "Mean Reversion Rate ( \u03B1 )",
+    "Nominal Short Term": "Global (nominal) Mean Reversion Speed",
+    "Nominal Long Term": "Global (nominal) Mean Reversion Speed",
+    "Real Short Term": "Global (nominal) Mean Reversion Speed",
+    "Real Long Term": "Global (nominal) Mean Reversion Speed"
+  }
+]

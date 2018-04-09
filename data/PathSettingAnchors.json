@@ -1,0 +1,16 @@
+[
+  {
+    "Required": "Anchored Model",
+    "Nominal Short Term": "Output_Nominal",
+    "Nominal Long Term": "Output_Nominal",
+    "Real Short Term": "Output_Inflation",
+    "Real Long Term": "Output_RealLong"
+  },
+  {
+    "Required": "Named Output to push",
+    "Nominal Short Term": "NominalPath_1Y",
+    "Nominal Long Term": "NominalPath_10Y",
+    "Real Short Term": "InflationPath_1Y",
+    "Real Long Term": "RealPath_10Y"
+  }
+]
